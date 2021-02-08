@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: 0;
+    scroll-behavior: smooth;
+}
+.main
+{
+    background-image: url('img/khazarsite.png');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1366px;
+}
+.logo{
+    width: 100%;
+    height:160px;
+    background-color: rgba(76,30,109,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img{
+    width: 260px;
+    height: 90px;
+}
+
+
+.social_media{
+    width: 100%;
+    height: 650px;  
+    position: relative;
+    top: 44%;
+   
+}
+.social_media .earth-1{
+    position: absolute;
+    top: 73%;
+    left: 4%;
+    z-index: 5;
+    width: 85px;
+    height: 85px;
+ 
+}
+.social_media .earth-2{
+    position: absolute;
+    top: 73%;
+    left: 4%;
+    z-index: 5;
+    width: 85px;
+    height: 85px;
+}
+.social_media .earth-3{
+    position: absolute;
+    top: 73%;
+    left: 4%;
+    z-index: 5;
+    width: 85px;
+    height: 85px;
+}
+.social_media .first{
+    background-image: url('img/first.PNG');  
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 75%;
+    height: 250px;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+.social_media .first p{
+    
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #9da1b6;
+    font-family: sans-serif;
+}
+.social_media .second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 170px;
+}
+.second .khazar{
+    min-width: 380px;
+    height: 190px;
+    background-color: #fff;
+    margin: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 1;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/xezer_xeber.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 43%);
+}
+
+.khazar_bottom{
+    min-width: 380px;
+    height: 80px;
+    background-color: #e8eaf4;
+    margin: 30px;
+    margin-top: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 27px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    
+}
+.khazar_bottom p{
+  display: inline-block;
+  font-size: 25px;
+  color: #3c4d64;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.khazar_bottom i{
+    color: #2095f3;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .khazar_bottom img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px;
+  }
+.second .khazar .last{
+    margin-right: 0px;
+}
+.khazar_bottom .youtube{
+    background-color: #ed2f2d;
+    color: white;
+    width: 125px;
+    height: 38px;
+    padding: 12px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 60px;
+}
+.khazar_bottom .facebook{
+    background-color: #3a5a95;
+    color: white;
+    width: 125px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+.khazar_bottom .instagram{
+    background-color: #fd3d75;
+    color: white;
+    width: 125px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+footer{
+    background: #c39ddf;
+}
+.footer_main{
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer_color{
+    height: 65px;
+    background: #583570;
+}
+.footer_main .col-1{
+    margin: 45px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+}
+.footer_main .col-1 img{
+    width: 260px;
+    height: 90px;
+    cursor: pointer;
+}
+.footer_main .col-2{
+    
+    min-width: 350px;
+}
+.footer_main .col-2-content{
+    margin: 45px 0px;
+    border-left: 3px solid white;
+    height: 130px;
+    padding: 5px 30px 15px 30px;
+    line-height: 2.3rem;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 710;
+}
+.footer_main .col-2-content p{
+    font-size: 15px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.footer_main .col-2 .col-2-content .fas{
+   font-size: 25px;
+   color: white;
+   font-weight: bold;
+}
+.footer_main .col-2 .col-2-content .fa-map-marker-alt{
+    margin-right: 8px;
+    margin-left: 3px;
+}
+.footer_main .col-2 .col-2-content .fa-envelope{
+    margin-right: 5px;
+}
+.footer_main .col-3{
+    min-width: 350px;
+}
+.footer_main .col-3-content{
+    margin: 45px 0px;
+    border-left: 3px solid white;
+    height: 130px;
+    padding: 25px 55px;
+}
+.footer_main .col-3-content .col-3-icons{
+    display: flex;
+}
+.footer_main .col-3-content .col-3-icons i{
+    margin-right: 25px;
+    font-size: 25px;
+    color: white;
+}
+.footer_main .col-3-content .col-3-copyright{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+@media (max-width: 1340px){
+    .social_media{
+        height: 850px;
+    }
+    footer{
+        margin-top: 250px;
+    }
+    body{
+        background-color: #e3e6ef;
+    }
+}
+@media (max-width: 1110px){
+    .footer_main{
+        justify-content: space-around;
+    }
+    footer{
+        margin-top: 250px;
+    }
+    body{
+        background-color: #e3e6ef;
+    }
+}
+@media (max-width: 900px){
+    .social_media{
+        height: 1160px;
+    }
+    .social_media .first{
+        text-align: center;
+    }
+    .social_media .first p{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    footer{
+        margin-top: 550px;
+    }
+    body{
+        background-color: #e3e6ef;
+    }
+}
+@media (max-width: 756px){
+    .footer_main{
+        justify-content: flex-start;
+        max-width: 460px;
+        margin: auto;
+    }
+    .footer_main .col-3-content{
+        padding: 25px 30px;
+    }
+     .social_media .first p{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    .social_media .first p{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    footer{
+        margin-top: 550px;
+    }
+     body{
+        background-color: #e3e6ef;
+    }
+}

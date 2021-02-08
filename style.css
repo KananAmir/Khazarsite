@@ -187,9 +187,9 @@ footer{
     
     display: flex;
     flex-wrap: wrap;
-    max-width: 1180px;
+    max-width: 1380px;
     margin: auto;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 .footer_color{
@@ -202,15 +202,18 @@ footer{
     justify-content: center;
     align-items: center;
     min-width: 280px;
+    flex: 2.3;
 }
 .footer_main .col-1 img{
     width: 260px;
     height: 90px;
     cursor: pointer;
+    margin-left: -100px;
 }
 .footer_main .col-2{
     
     min-width: 350px;
+    flex: 2;
 }
 .footer_main .col-2-content{
     margin: 45px 0px;
@@ -244,6 +247,7 @@ footer{
 }
 .footer_main .col-3{
     min-width: 350px;
+    flex: 1.6;
 }
 .footer_main .col-3-content{
     margin: 45px 0px;
